@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="FirstProject" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="648,1959.3333333333333" sap2010:WorkflowViewState.IdRef="FirstProject_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="FirstProject" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="648,2095.3333333333335" sap2010:WorkflowViewState.IdRef="FirstProject_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -85,7 +85,7 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC1" sap:VirtualizedContainerService.HintSize="658,1894.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC1" sap:VirtualizedContainerService.HintSize="658,2030.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Browser" Name="TheBrowser" />
       <Variable x:TypeArguments="x:String" Name="btn_GoogleSearch" />
@@ -138,7 +138,7 @@
         <Delay DisplayName=" Delay 3 seconds" Duration="00:00:03" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="Delay_3" />
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="Verification" sap:VirtualizedContainerService.HintSize="596,864" sap2010:WorkflowViewState.IdRef="Sequence_16">
+    <Sequence DisplayName="Verification" sap:VirtualizedContainerService.HintSize="596,1000" sap2010:WorkflowViewState.IdRef="Sequence_16">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -198,6 +198,7 @@
       </uta:VerifyControlAttribute>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,96" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Google Button Check using Verify Control Attribute -&gt; &quot; + isGoogleSearchBtnExist.ToString]" />
       <Delay DisplayName=" Delay 3 seconds" Duration="00:00:03" sap:VirtualizedContainerService.HintSize="534,92" sap2010:WorkflowViewState.IdRef="Delay_4" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,96" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Completed the execution&quot;]" />
     </Sequence>
     <Sequence DisplayName="Tear Down" sap:VirtualizedContainerService.HintSize="596,136" sap2010:WorkflowViewState.IdRef="Sequence_17">
       <sap:WorkflowViewStateService.ViewState>
