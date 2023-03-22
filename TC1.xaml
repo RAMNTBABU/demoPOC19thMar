@@ -198,7 +198,7 @@
       </uta:VerifyControlAttribute>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,96" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Google Button Check using Verify Control Attribute -&gt; &quot; + isGoogleSearchBtnExist.ToString]" />
       <Delay DisplayName=" Delay 3 seconds" Duration="00:00:03" sap:VirtualizedContainerService.HintSize="534,92" sap2010:WorkflowViewState.IdRef="Delay_4" />
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,96" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Completed the execution&quot;]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="534,96" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Completed  and end of the execution&quot;]" />
     </Sequence>
     <Sequence DisplayName="Tear Down" sap:VirtualizedContainerService.HintSize="596,136" sap2010:WorkflowViewState.IdRef="Sequence_17">
       <sap:WorkflowViewStateService.ViewState>
